@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300,;1,300;1,600&display=swap');
+
+body {
+  border-top: 10px solid #014b62;
+  border-bottom: 10px solid #014b62;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+canvas {
+  border: 1px solid #d3d3d3;
+  background-color: transparent;
+}
+
+#home-hero {
+  background-image: url('mages/soodaljpeg.jpeg'); 
+  max-width: 64px; max-height: 64px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: flex;
+}
+
+.content-left {
+    flex-grow: 1;
+}
+
+.content-right {
+    width: 30%; /* Adjust the width as needed */
+    padding-left: 20px; /* Add some space between the two columns */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+#home-hero h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home-hero h1 {
+  font-family: 'Dancing Script', cursive;
+  color: pink;
+  font-size: 60px; /* Add a colon here */
+  text-shadow: 2px 2px 2px green;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+.home-hero {
+  background-image: url(images/flames.jpg);
+  height: 200px;
+  background-size: 30%; /* Adjust this value to make the image smaller */
+  background-position: center;
+  color: black;
+  padding: 10px 10px 10px 20px;
+  text-shadow: 0px 0px 0 #7A7A7A;
+}
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+    th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+    th {
+    background-color: #f2f2f2;
+}
+{
+  background: linear-gradient(to right, #ff0000, #0000ff);
+      color: white;
+      text-align: center;
+      padding: 20px;
+}
+.h2{
+  margin-bottom: 20px;
+}
+.iframe {
+  margin-bottom: 20px;
+}
+a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+}
+a:hover {
+      text-decoration: underline;
+}
+
+
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.score_val {
+  color: blue;
+}
+
+.button button {
+  background-color: #d36b8a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: red;
+}
+
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  color: black;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background-image: linear-gradient(to right, blue, red, blue);
+  border-top: 2px #0013f6 solid;
+  border-bottom: 2px #0013f6 solid;
+  padding: 5px;
+}
+
+footer p,
+footer h3 {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: #001286;
+}
+
+hr {
+  border: 1px solid #darkgoldenrod;
+  margin: 20px 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+li {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+.soundcloud-link {
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.soundcloud-link a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.soundcloud-link a:hover {
+    text-decoration: underline;
+}
+/* vertical Navigation bar*/
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+nav a:link,
+footer a:link {
+  color: white;
+}
+
+nav a:visited,
+footer a:hover {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em; /* Add a colon here */
+}
+
+nav {
+  background-image: linear-gradient(to right, blue, red, blue);
+  border-top: 2px #0013f6 solid;
+  border-bottom: 2px #0013f6 solid;
+  padding: 5px;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block; /* Corrected value */
+  max-width: 275px;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* CSS for smartphones */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+/* JavaScript game changes for mobile */
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    touch-action: manipulations;
+  }
+}
+
+.footer {
+  background-image: linear-gradient(to right, blue, red, blue);
+  border-top: 2px #0013f6 solid;
+  border-bottom: 2px #0013f6 solid;
+  padding: 5px;
+}
